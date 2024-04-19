@@ -1,8 +1,7 @@
-Yusuf Hotee  
-Keyboard and Mouse
-Controller
-couple nine
-lines
-afasdfasd
-asdfasdf
 edited in the github website, will pull soon
+vi dockerfile (can use vs code or another text editor)
+vi index.html (text editing) :wq save   :qa! leave no save 
+docker build -t yusufblads16/mynginx_image1:v1 . (tags image)
+
+docker run --name yusufnginxcontainer -p 80:80 -d yusufblads16/yusufnginximage:tag
+
