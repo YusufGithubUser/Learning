@@ -1,0 +1,3 @@
+kubectl run new-image1 --image yusufblads16/yusufnginximage:v1-release
+kubectl describe pod new-image1
+kubectl expose pod new-image1 --type=LoadBalancer --port=80 --name=yusuf-service
