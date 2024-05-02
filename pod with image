@@ -1,3 +1,4 @@
 kubectl run new-image1 --image yusufblads16/yusufnginximage:v1-release
+# pod named new image running image from dockerhub 
 kubectl describe pod new-image1
 kubectl expose pod new-image1 --type=LoadBalancer --port=80 --name=yusuf-service
