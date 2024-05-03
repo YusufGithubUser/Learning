@@ -1,0 +1,1 @@
+when attempting to push replicaset pods to internet, you must push the replicaset itslelf and not its individual pods
