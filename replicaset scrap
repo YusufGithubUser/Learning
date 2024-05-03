@@ -1,1 +1,2 @@
 when attempting to push replicaset pods to internet, you must push the replicaset itslelf and not its individual pods
+meaning that you have to create a service for the replicaset itself and not the individual pods
